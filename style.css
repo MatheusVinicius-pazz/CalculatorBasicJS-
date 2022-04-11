@@ -1,63 +1,64 @@
-.calculator{
-    position: absolute;
-    background-color: black;
-    width: 260px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
-    text-align: center;
-    
-    
-}
-h1{
-    color: white;
-    text-align: center;
+#f {
+  background-color: aqua;
 }
 
-.buttons{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 15px;
-    border: 10px;
-    padding: 10px;
-    width: 50px;
-    display: inline-block;
-    margin: 5px;
-    border-radius: 5px;
-    text-align: center;   
-    cursor: pointer;
+.calculator {
+  position: absolute;
+  background-color: black;
+  width: 260px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  text-align: center;
 }
-.buttons:hover{
-    background-color: orange;
-}
-.buttonEqual{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: orange;
-    position: absolute;
-    border: 0;
-    padding: 10px;
-    width: 50px;
-    height: 90px;
-    margin: 5px;
-    border-radius: 40px;
-    top: 67%;
-    left: 75.5%;
+h1 {
+  color: white;
+  text-align: center;
 }
 
-#result{
+.buttons {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  border: 10px;
+  padding: 10px;
+  width: 50px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(221, 217, 217);
+}
+.buttons:hover {
+  background-color: white;
+}
+.buttonEqual {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: orange;
+  position: absolute;
+  border: 0;
+  padding: 10px;
+  width: 50px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 40px;
+  top: 69%;
+  left: 75.5%;
+}
 
-    position: relative;
-    width: 215px;
-    background-color: white;
-    height: 30px;
-    left: 6%;
-    text-align: right;
-    margin: 3px;
-    padding: 3px;
-    border-radius: 5px;
-    font-family: 'Arial Narrow Bold';
-    font-size: 24px;
-    
-    
+#result {
+  position: relative;
+  width: 215px;
+  background-color: white;
+  height: 30px;
+  left: 6%;
+  text-align: right;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: "Arial Narrow Bold";
+  font-size: 24px;
 }
